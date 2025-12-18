@@ -1,0 +1,51 @@
+***********************************************************
+*
+* PMEG3010ER
+*
+* Nexperia
+*
+* 1 A low VF MEGA Schottky barrier rectifier
+* IFmax = 1A (average)
+* VRmax = 30V
+* VFmax = 360mV   @ IF = 1A
+* IRmax = 1.5mA   @ VR = 30V
+* 
+*
+*
+*
+* Package pinning does not match Spice model pinning.
+* Package: SOD123W
+*
+* Package Pin 1: Cathode
+* Package Pin 2: Anode
+*
+*
+* Extraction date (week/year): #
+* Simulator: SPICE2
+*
+***********************************************************
+*
+* The resistor R1
+* does not reflect physical devices 
+* but improve only modeling in the 
+* reverse mode of operation.
+*
+.SUBCKT PMEG3010ER 1 2
+R1 1 2 1.015E+5 
+D1 1 2 PMEG3010ER 
+*
+.MODEL PMEG3010ER D
++ IS = 2.464E-5 
++ N = 1.003 
++ BV = 33 
++ IBV = 0.005
++ RS = 0.02955
++ CJO = 3.288E-10 
++ VJ = 0.3778 
++ M = 0.5149 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 
+.ENDS
+*

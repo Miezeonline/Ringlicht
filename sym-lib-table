@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Projekt")(type "KiCad")(uri "${KIPRJMOD}/Lib/2025-04-20_19-29-38.kicad_sym")(options "")(descr ""))
+  (lib (name "Treiber")(type "KiCad")(uri "E:/Git/KiCad_Lib/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+)

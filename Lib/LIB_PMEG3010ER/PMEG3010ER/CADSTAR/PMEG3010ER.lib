@@ -1,0 +1,16 @@
+.PMEG3010ER :1 ;Diode, NXP, PMEG3010ER NXP PMEG3010ER, SMT Schottky Diode, 30V 1A, 2-Pin SOD-123
+SODFL3517X110N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN PMEG3010ER
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PMEG3010ER?qs=vHuUswq2%252BswA%252BkrsHFmQzA%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PMEG3010ER)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010004875.pdf)
+~!Height (1.1mm)
+~!3D_Model (PMEG3010ER)
+PMEG3010ER
+1.1!U 2.1!U 
